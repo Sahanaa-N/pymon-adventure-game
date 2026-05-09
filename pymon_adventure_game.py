@@ -663,9 +663,9 @@ class Operation:
 if __name__ == "__main__":
     # Automatically detect CSVs in the same folder 
     base = os.path.dirname(os.path.abspath(__file__))
-    loc = os.path.join(base, "locations-2.csv")
-    cre = os.path.join(base, "creatures.csv")
-    itm = os.path.join(base, "items.csv")
+    loc = os.path.join(base, "data", "locations-2.csv")
+    cre = os.path.join(base, "data", "creatures.csv")
+    itm = os.path.join(base, "data", "items.csv")
 
     # Verify that required files exist in the same folder
     missing = [f for f in [loc, cre, itm] if not os.path.exists(f)]
