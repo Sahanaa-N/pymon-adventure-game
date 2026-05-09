@@ -1,0 +1,5 @@
+name,description,pickable,consumable
+apple,an edible green fruit that will boost your energy,yes,yes
+pogo stick,gives your Pymon extra speed in a race,yes,no
+binocular,allows Pymon to see far and scout connected areas,yes,no
+tree,a large decorative tree that cannot be picked up,no,no
